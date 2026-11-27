@@ -3,7 +3,7 @@ function appendValue(value){
 }
 
 function clearDisplay(){
-    document.getElementById("display").value += "";
+    document.getElementById("display").value = "";
 }
 
 function calculate(){
